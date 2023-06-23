@@ -356,7 +356,7 @@ color: var(--accent-color);
 
 /* section 2 possibilities */
 
-.possibilities {
+.sectin-possibilities {
     padding-top: 120px; 
     padding-bottom: 120px;
 }
@@ -367,52 +367,59 @@ color: var(--accent-color);
     color: var(--title-text-color);
 }
 
-.container.possibilities {
-    display: block;
-    padding-top: 120px; 
-    padding-bottom: 120px;
-}
-
-.main-list-list {
-    display: flex;
-    padding-top: 120px; 
-    padding-bottom: 120px;
-}
-
-.compound.list {
+.main-list.list {
     display: flex;
     gap: 24px;
 }
 
+.team.list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--title-text-color);
+    margin-bottom: 8px;
+    display: flex;
+}
 
-.compound-list {
+.container-svg {
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.possibilities {
+    display: block;
+}
+
+.team.list  {
     width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
 
-.compound-list {
+.team.list  {
     display: block;
     margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
 }
 
-.compound-list.list:not(:last-child) {
+.team.list .list:not(:last-child) {
     margin-right: 24px;
 } 
 
-.compound-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-}
-
-.main-list.list.about {
+.team-text {
+    width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    display: flex;
 }
 
 /* goal-style */
