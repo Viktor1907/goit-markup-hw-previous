@@ -735,7 +735,7 @@ background-color: var(--accent-color);
     margin-right: 120px;
 }
 
-.fotter-logo-box {
+.fotter-logo-box.container.footer-container {
     margin-right: 120px;
 }
 
