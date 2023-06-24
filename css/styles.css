@@ -713,7 +713,7 @@ background-color: var(--accent-color);
 .container.footer-container {
     display: flex;
     align-items: baseline;
-
+    margin-right: 120px;
 }
 
 .fotter-logo-box {
